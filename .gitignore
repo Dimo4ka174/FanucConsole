@@ -1,0 +1,73 @@
+# --- Сборка .NET ---
+bin/
+obj/
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# --- Результаты публикации ---
+publish/
+*.publish/
+*.pubxml
+*.pubxml.user
+
+# --- Visual Studio / VS Code ---
+.vs/
+.vscode/
+*.slnx
+*.slnx.metaproj
+*.slnx.user
+
+# --- Логи ---
+logs/
+*.log
+*.nlog
+*.log.*
+*.trace
+
+# --- Docker ---
+*.tar
+*.tar.gz
+docker-compose.override.yml
+
+# --- Файлы окружения и секреты ---
+.env
+.env.*
+!.env.example
+appsettings.Production.json
+appsettings.Development.json
+secrets.json
+*.secret
+
+# --- База данных и отчёты ---
+backup_*.sql
+db_report.txt
+*.dump
+*.sqlite
+*.sqlite3
+
+# --- Нативные библиотеки ---
+NativeLibs/*
+!NativeLibs/README.md
+
+# --- Временные файлы ---
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# --- Файлы резервного копирования ---
+*.bak
+*.old
+
+# --- Тестовые данные ---
+test-results/
+coverage/
+*.coverage
+*.coveragexml

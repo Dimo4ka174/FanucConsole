@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "FanucFocasConsole": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
