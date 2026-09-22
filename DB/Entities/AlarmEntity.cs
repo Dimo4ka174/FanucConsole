@@ -1,4 +1,4 @@
-﻿namespace FanucFocasConsole.DB.Entities
+namespace FanucFocasConsole.DB.Entities
 {
     public class AlarmEntity
     {

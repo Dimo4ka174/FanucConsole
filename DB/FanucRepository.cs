@@ -1,5 +1,5 @@
-using Microsoft.Extensions.Logging;
 using FanucFocasConsole.DTO;
+using Microsoft.Extensions.Logging;
 using Npgsql;
 
 namespace FanucFocasConsole.DB
@@ -18,7 +18,10 @@ namespace FanucFocasConsole.DB
         public async Task EnsureDatabaseExistsAsync()
         {
             var builder = new NpgsqlConnectionStringBuilder(_connectionString);
-            string targetDb = builder.Database;
+            string? targetDb = builder.Database;
+            if (string.IsNullOrWhiteSpace(targetDb))
+                throw new InvalidOperationException(
+                    "Database name is missing from the connection string.");
             builder.Database = "postgres";
 
             await using var conn = new NpgsqlConnection(builder.ConnectionString);

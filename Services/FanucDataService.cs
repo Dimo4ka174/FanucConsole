@@ -1,8 +1,8 @@
-﻿using System.Runtime.InteropServices;
-using Microsoft.Extensions.Logging;
-using FanucFocasConsole.Interop;
-using FanucFocasConsole.DTO;
+using System.Runtime.InteropServices;
 using FanucFocasConsole.DB;
+using FanucFocasConsole.DTO;
+using FanucFocasConsole.Interop;
+using Microsoft.Extensions.Logging;
 
 namespace FanucFocasConsole.Services
 {

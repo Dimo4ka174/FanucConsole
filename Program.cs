@@ -1,14 +1,14 @@
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Configuration;
 using System.Runtime.InteropServices;
+using DotNetEnv;
+using FanucFocasConsole.DB;
+using FanucFocasConsole.Interop;
+using FanucFocasConsole.Services;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using FanucFocasConsole.Services;
-using FanucFocasConsole.Interop;
-using FanucFocasConsole.DB;
-using Serilog.Events;
-using DotNetEnv;
 using Serilog;
+using Serilog.Events;
 
 // Load .env (if present) before building the configuration.
 Env.Load();
