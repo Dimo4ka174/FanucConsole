@@ -7,6 +7,7 @@
 [![Architecture](https://img.shields.io/badge/arch-x86%20%7C%20x64-orange)]()
 [![.NET](https://img.shields.io/badge/.NET-10.0-purple)]()
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![Latest release](https://img.shields.io/github/v/release/Dimo4ka174/FanucConsole)](https://github.com/Dimo4ka174/FanucConsole/releases)
 
 ---
 
